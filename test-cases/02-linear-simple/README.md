@@ -7,7 +7,7 @@ Test how simple linear segments are calculated across each tool. This tests a de
 - Create a production forecast for oil.
 - Add a linear segment with these parameters:
   - Start date of 01/01/2025
-  - Duration ($t$t) of 1 year
+  - Duration ($t$) of 1 year
     - Note: if the tool doesn't allow duration to be provided in years, try to provide it either as 12 months, or 365.25 days
   - Initial rate ($q_i$) of 2000 bbl/d
     - Note: this rate is intentionally extreme so we can spot small variances in slope/decline rate calculations
