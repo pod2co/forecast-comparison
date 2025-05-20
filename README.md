@@ -5,9 +5,9 @@ A comparison of forecast methodology and results across several tools:
 - ARIES
 - PHDwin
 - ComboCurve
-- Mosaic
-- Val Nav
 - whitson+
+- Val Nav
+- Mosaic
 - 4cast
 - Harmony
 
