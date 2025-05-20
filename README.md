@@ -39,6 +39,7 @@ Results will be added here as they are available. Each of the test cases has det
 
 1. [Flat Simple](./test-cases/01-flat-simple/README.md)
 2. [Linear Simple](./test-cases/02-linear-simple/README.md)
+3. [Exponential Simple](./test-cases/03-exponential-simple/README.md)
 
 ## Contributing
 

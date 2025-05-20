@@ -36,7 +36,7 @@ Q_f &= (1000)(365.25) \\
 
 (TODO: screenshot)
 
-It seems that ComboCurve only allows whole numbers to be used as the duration for flat segments, so 365 days was used instead of 365.25 days.
+It seems that ComboCurve only allows whole numbers to be used as the duration for flat segments, so a duration of 365 days was used instead of 365.25 days.
 
 This duration difference caused the volume to be different ($1000 * 365 = 365,000$).
 

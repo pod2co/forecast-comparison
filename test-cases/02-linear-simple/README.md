@@ -36,15 +36,15 @@ Let's also calculate the slope and decline rate for completeness, because some t
 m &= \frac{q_f - q_i}{t}\\
 &= \frac{1000 - 2000}{365.25}\\
 &\approx -2.737850787 \text{ bbl/d/d}\\
-a_i &= \frac{-m}{q_i}\\
+D &= \frac{-m}{q_i}\\
 &\approx \frac{2.737850787 \text{ bbl/d/d}}{2000 \text{ bbl/d}}*\frac{365.25 \text{ d}}{\text{yr}}*100\%\\
 &\approx 50 \text{ \%/yr}
 \end{aligned}
 ```
 
-**Expected Slope: approximately -2.73785 bbl/d/d**
+**Expected Slope: -2.73785 bbl/d/d**
 
-**Expected Decline Rate: approximately 50 %/yr**
+**Expected Decline Rate: 50 %/yr**
 
 ### ARIES
 
@@ -54,7 +54,7 @@ a_i &= \frac{-m}{q_i}\\
 
 (TODO: screenshot)
 
-It seems that ComboCurve only allows whole numbers to be used as the duration for flat segments, so 365 days was used instead of 365.25 days.
+It seems that ComboCurve only allows whole numbers to be used as the duration for linear segments, so a duration of 365 days was used instead of 365.25 days.
 
 If we use 365 days to re-calculate the equation used in the baseline, the result is $(365)(2000+1000)/2=547,500$ as expected, so the change in duration is the only reason for the variance.
 
@@ -66,7 +66,7 @@ Using inputs with duration of 365 days, initial rate of 2000 bbl/d, and final ra
 
 **Actual Slope (using rounded duration): -2.74725 bbl/d/d**
 
-ComboCurve calculates "Di Eff-Sec" to be ~50.17 %/yr, which seems to be expected based on the slope $a_i = -(-2.74725)*365.25*1000/2000 \approx -50.1717032967$. The difference compared to the expected 50 %/yr seems to be caused by the different slope.
+ComboCurve calculates "Di Eff-Sec" to be ~50.17 %/yr, which seems to be expected based on the slope $D = -(-2.74725)*365.25*1000/2000 \approx -50.1717032967$. The difference compared to the expected 50 %/yr seems to be caused by the different slope.
 
 **Actual Decline Rate (using rounded duration): 50.1717032967 %/yr**
 
