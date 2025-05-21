@@ -9,7 +9,7 @@ Test how simple exponential segments are calculated across each tool.
   - Start date of 01/01/2025
   - Duration ($t$) of 5 years
     - Note: if the tool doesn't allow duration to be provided in years, try to provide it either as 60 months, or 1826.25 days
-  - Initial rate ($q_i$) of 1000 bbl/d
+  - Initial rate ($q_i$) of 5000 bbl/d
     - Note: this rate is intentionally extreme so we can spot small variances in final rate and decline rate calculations
   - Initial effective decline rate ($D_e$) of 70 %/yr
 
@@ -52,6 +52,15 @@ Q_f &\approx \frac{5000}{0.00329629789}(1-e^{-(0.00329629789)(5)(365.25)})\\
 ### ARIES
 
 ### PHDwin v3
+
+![PHDwin v3 exponential segment](phdwin.png)
+
+Monthly production r
+Monthly production rates are used, so the initial rate becomes $(5000)(365.25/12)=152187.5 \text{ bbl/mo}$.
+
+PHDwin doesn't appear to allow fractional durations to be used, so 1826 days is used instead. If we use 365 days to re-calculate the equation used in the baseline, the result is $\frac{5000}{0.00329629789}(1-e^{-(0.00329629789)(1826)})\approx1,513,164.207 \text { bbl}$ as expected, so the change in duration is the only reason for the variance.
+
+**Actual Volume: 1,513,164.21 bbl**
 
 ### ComboCurve
 
