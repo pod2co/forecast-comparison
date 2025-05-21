@@ -66,7 +66,7 @@ Using inputs with duration of 365 days, initial rate of 2000 bbl/d, and final ra
 
 **Actual Slope (using rounded duration): -2.74725 bbl/d/d**
 
-ComboCurve calculates "Di Eff-Sec" to be ~50.17 %/yr, which seems to be expected based on the slope $D = -(-2.74725)*365.25*1000/2000 \approx -50.1717032967$. The difference compared to the expected 50 %/yr seems to be caused by the different slope.
+ComboCurve calculates "Di Eff-Sec" to be ~50.17 %/yr, which seems to be expected based on the slope $D = -(-2.74725)(365.25)(1000)/2000 \approx -50.1717032967$. The difference compared to the expected 50 %/yr seems to be caused by the different slope.
 
 **Actual Decline Rate (using rounded duration): 50.1717032967 %/yr**
 
