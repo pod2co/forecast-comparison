@@ -54,7 +54,7 @@ D &= \frac{-m}{q_i}\\
 
 Monthly production rates are used, so the initial rate and final rate become $(2000)(365.25/12)=60875 \text{ bbl/mo}$ and $(1000)(365.25/12)=30437.5 \text{ bbl/mo}$ respectively.
 
-If we use 365 days to re-calculate the equation used in the baseline, the result is $(365)(2000+1000)/2=547,500$ as expected, so the change in duration is the only reason for the variance.
+PHDwin doesn't appear to allow fractional durations to be used, so 365 days is used instead. If we use 365 days to re-calculate the equation used in the baseline, the result is $(365)(2000+1000)/2=547,500$ as expected, so the change in duration is the only reason for the variance.
 
 **Actual Volume: 547,500 bbl**
 
