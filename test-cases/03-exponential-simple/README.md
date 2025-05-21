@@ -51,7 +51,7 @@ Q_f &\approx \frac{5000}{0.003296298}(1-e^{-(0.003296298)(5)(365.25)})\\
 
 ### ARIES
 
-### PHDwin
+### PHDwin v3
 
 ### ComboCurve
 

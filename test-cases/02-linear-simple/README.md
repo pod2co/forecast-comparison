@@ -48,7 +48,23 @@ D &= \frac{-m}{q_i}\\
 
 ### ARIES
 
-### PHDwin
+### PHDwin v3
+
+![PHDwin v3 linear segment](phdwin.png)
+
+Monthly production rates are used, so the initial rate and final rate become $(2000)(365.25/12)=60875 \text{ bbl/mo}$ and $(1000)(365.25/12)=30437.5 \text{ bbl/mo}$ respectively.
+
+If we use 365 days to re-calculate the equation used in the baseline, the result is $(365)(2000+1000)/2=547,500$ as expected, so the change in duration is the only reason for the variance.
+
+**Actual Volume: 547,500 bbl**
+
+PHDwin also calculates "D" to be ~30,458.3476. This appears to be the calculation $(60875-30437.5)(365.25/365)\approx30458.34760273970 \text{ bbl/mo/yr}$ representing the negative slope. We can change the units with $(30458.34760273970)(12/365.25)(1/365.25)\approx2.739726027 \text{ bbl/d/d}$.
+
+This matches the expected slope when using the rounded duration of 365 days. $m = (1000 - 2000)/365 \approx -2.739726027 \text{ bbl/d/d}$
+
+**Actual Slope (using rounded duration): -2.739726027 bbl/d/d**
+
+The decline rate doesn't appear to be reported directly so we'll omit it here.
 
 ### ComboCurve
 

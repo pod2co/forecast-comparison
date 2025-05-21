@@ -30,7 +30,19 @@ Q_f &= (1000)(365.25) \\
 
 ### ARIES
 
-### PHDwin
+### PHDwin v3
+
+![PHDwin v3 flat segment](phdwin-1.png)
+
+Flat segments are entered as monthly values, so we use a rate of $(1000)(365.25/12)=30437.5 \text{ bbl/mo}$ for 12 months.
+
+This gives a volume of 365,000 bbl, which suggests that whole calendar months are used instead of average months. This was confirmed by trying to select another start date partway through the month, but the first of the month is automatically selected.
+
+It's also possible to model this in PHDwin as a linear segment with constant initial and final rates. This gives the same result because the end date is a calendar date, or a year duration that appears to round to the nearest calendar date.
+
+![PHDwin v3 linear with constant rate](phdwin-2.png)
+
+**Actual Volume: 365,000 bbl**
 
 ### ComboCurve
 
