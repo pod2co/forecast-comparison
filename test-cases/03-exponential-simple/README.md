@@ -11,7 +11,7 @@ Test how simple exponential segments are calculated across each tool.
     - Note: if the tool doesn't allow duration to be provided in years, try to provide it either as 60 months, or 1826.25 days
   - Initial rate ($q_i$) of 1000 bbl/d
     - Note: this rate is intentionally extreme so we can spot small variances in final rate and decline rate calculations
-  - Initial decline rate ($D_e$, i.e., effective initial decline rate) of 70 %/yr
+  - Initial effective decline rate ($D_e$) of 70 %/yr
 
 ## Results
 
@@ -23,7 +23,7 @@ Convert the initial decline rate to nominal:
 \begin{aligned}
 D &= -ln(1 - D_e)\\
 &= -ln(1 - 0.7)\\
-&\approx 1.203972804 \text{ \%/yr}\\
+&\approx 120.3972804 \text{ \%/yr}\\
 \end{aligned}
 ```
 
@@ -31,9 +31,9 @@ We can change the unit of the nominal decline rate to %/d by using the average y
 
 ```math
 \begin{aligned}
-D &\approx 1.203972804 \text{ \%/yr}\\
-&\approx (1.203972804 \text{ \%/yr})\frac{1 \text{ yr}}{365.25 \text{ d}}\\
-&\approx 0.003296298 \text{ \%/d}
+D &\approx 120.3972804 \text{ \%/yr}\\
+&\approx (120.3972804 \text{ \%/yr})\frac{1 \text{ yr}}{365.25 \text{ d}}\\
+&\approx 0.3296298 \text{ \%/d}
 \end{aligned}
 ```
 
