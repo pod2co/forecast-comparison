@@ -33,7 +33,7 @@ We can change the unit of the nominal decline rate to %/d by using the average y
 \begin{aligned}
 D &\approx 120.3972804 \text{ \%/yr}\\
 &\approx (120.3972804 \text{ \%/yr})\frac{1 \text{ yr}}{365.25 \text{ d}}\\
-&\approx 0.3296298 \text{ \%/d}
+&\approx 0.329629789 \text{ \%/d}
 \end{aligned}
 ```
 
@@ -42,12 +42,12 @@ We expect the volume for this segment to be calculated with:
 ```math
 \begin{aligned}
 Q_t(t) &= \frac{q_i}{D}(1-e^{-Dt})\\
-Q_f &\approx \frac{5000}{0.003296298}(1-e^{-(0.003296298)(5)(365.25)})\\
+Q_f &\approx \frac{5000}{0.00329629789}(1-e^{-(0.00329629789)(5)(365.25)})\\
 &\approx 1,513,167.196 \text{ bbl}
 \end{aligned}
 ```
 
-**Expected Volume: 1,513,167.196 bbl**
+**Expected Volume: 1,513,167.246 bbl**
 
 ### ARIES
 
