@@ -53,7 +53,7 @@ Q_t(t) &= \frac{q_i}{D_i}ln(1+D_it)\\
 
 ### PHDwin v3
 
-![PHDwin v3 linear segment](phdwin.png)
+![PHDwin v3 harmonic segment](phdwin.png)
 
 Monthly production rates are used, so the initial rate becomes $(5000)(365.25/12)=152187.5 \text{ bbl/mo}$.
 

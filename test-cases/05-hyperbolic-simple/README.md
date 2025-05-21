@@ -52,7 +52,7 @@ Q_t(t) &= \frac{q_i}{D_i(1-b)}[1-(1+bD_it)^{\frac{b-1}{b}}]\\
 
 ### PHDwin v3
 
-![PHDwin v3 linear segment](phdwin.png)
+![PHDwin v3 hyperbolic segment](phdwin.png)
 
 Monthly production rates are used, so the initial rate becomes $(5000)(365.25/12)=152187.5 \text{ bbl/mo}$.
 
