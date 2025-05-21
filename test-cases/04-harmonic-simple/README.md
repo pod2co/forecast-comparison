@@ -69,7 +69,7 @@ It seems that ComboCurve only allows whole numbers to be used as the duration fo
 
 Similar to the [exponential simple case](./../03-exponential-simple/README.md), ComboCurve appears to sum daily rates in order to calculate cumulative volume. This was confirmed by comparing the daily rates from the ComboCurve user interface to daily volumes exported through the ComboCurve API. Summing either the daily rates or daily volumes will result in the total of ~1.989 mbbl displayed in the ComboCurve user interface.
 
-Because of the curvature of harmonics, volumes may be higher or lower than the volume calculated using the equation described in the baseline. The effect on the volume can be more significant depending on the decline rate.
+Because of the curvature of harmonic segments, volumes may be higher or lower than the volume calculated using the equation described in the baseline. The effect on the volume can be more significant depending on the decline rate.
 
 **Actual Volume: 1,989,410 bbl**
 
