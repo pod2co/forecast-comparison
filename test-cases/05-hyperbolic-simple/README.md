@@ -48,6 +48,8 @@ Q_t(t) &= \frac{q_i}{D_i(1-b)}[1-(1+bD_it)^{\frac{b-1}{b}}]\\
 \end{aligned}
 ```
 
+**Expected Volume: 1,951,443.722 bbl**
+
 ### ARIES
 
 ### PHDwin v3
