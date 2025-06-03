@@ -30,6 +30,16 @@ Q_f &= (1000)(365.25) \\
 
 ### ARIES
 
+```
+OIL 1000 X/B 1 YR FLAT 0
+```
+
+ARIES only allows whole numbers to be used for durations, so 12 months (`12 MO` or the equivalent `1 YR`) was used instead.
+
+ARIES assumes an average of 365 days per year. The calculation becomes $1000 * 365 = 365,000$
+
+**Actual Volume: 365,000.04 bbl**
+
 ### PHDwin v3
 
 ![PHDwin v3 flat segment](phdwin-1.png)
