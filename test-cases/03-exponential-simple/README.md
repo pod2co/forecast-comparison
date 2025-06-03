@@ -51,6 +51,38 @@ Q_f &\approx \frac{5000}{0.00329629789}(1-e^{-(0.00329629789)(5)(365.25)})\\
 
 ### ARIES
 
+```
+5000 X B/D 60 MO EXP 70
+```
+
+ARIES only allows whole numbers to be used as the duration, so 60 months (`60 MO` or the equivalent `5 YR`) is used instead. ARIES assumes an average of 365 days per year, so the total days after 5 years are $5 * 365 = 1825$.
+
+The average year length of 365 days also affects the decline rate.
+
+To reproduce the ARIES calculation, calculate the nominal decline rate in the same way as the baseline but using 365 days per year instead:
+
+
+```math
+\begin{aligned}
+D &\approx 120.3972804 \text{ \%/yr}\\
+&\approx (120.3972804 \text{ \%/yr})\frac{1 \text{ yr}}{365 \text{ d}}\\
+&\approx 0.3298556 \text{ \%/d}
+\end{aligned}
+```
+
+Then calculate the volume after 1825 days:
+
+```math
+\begin{aligned}
+Q_f &\approx \frac{5000}{0.003298556}(1-e^{-(0.003298556)(1825)})\\
+&\approx 1,512,131.539 \text{ bbl}
+\end{aligned}
+```
+
+This is approximately the same as the ARIES actual volume, with the remaining difference likely to be caused by a small amount of floating-point error accumulation.
+
+**Actual Volume: 1,512,131.75 bbl**
+
 ### PHDwin v3
 
 ![PHDwin v3 exponential segment](phdwin.png)
