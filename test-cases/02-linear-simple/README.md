@@ -68,7 +68,7 @@ The decline rate doesn't appear to be reported directly so we'll omit it here.
 
 ### ComboCurve
 
-(TODO: screenshot)
+![ComboCurve linear segment](combocurve.png)
 
 It seems that ComboCurve only allows whole numbers to be used as the duration for linear segments, so a duration of 365 days was used instead of 365.25 days.
 
