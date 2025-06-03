@@ -46,7 +46,7 @@ It's also possible to model this in PHDwin as a linear segment with constant ini
 
 ### ComboCurve
 
-(TODO: screenshot)
+![ComboCurve flat segment](combocurve.png)
 
 It seems that ComboCurve only allows whole numbers to be used as the duration for flat segments, so a duration of 365 days was used instead of 365.25 days.
 

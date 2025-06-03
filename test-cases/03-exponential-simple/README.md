@@ -63,7 +63,7 @@ PHDwin doesn't appear to allow fractional durations to be used, so 1826 days is 
 
 ### ComboCurve
 
-(TODO: screenshot)
+![ComboCurve exponential segment](combocurve.png)
 
 It seems that ComboCurve only allows whole numbers to be used as the duration for exponential segments, so a duration of 1826 days was used instead of 1826.25 days. However the duration difference doesn't explain the difference in volume in this case, because the ComboCurve volume is significantly higher (~1515.66 mbbl vs. ~1513.17 mbbl).
 
