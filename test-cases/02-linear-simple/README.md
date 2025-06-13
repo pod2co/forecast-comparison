@@ -48,6 +48,16 @@ D &= \frac{-m}{q_i}\\
 
 ### ARIES
 
+```
+2000 1000 B/D 12 MO FLAT 0
+```
+
+ARIES only allows whole numbers to be used for durations, so 12 months (`12 MO` or the equivalent `1 YR`) was used instead. ARIES uses 365 average days per year.
+
+If we use 365 days to re-calculate the equation used in the baseline, the result is $(365)(2000+1000)/2=547,500$ as expected, so the change in duration is the only reason for the variance.
+
+**Actual Volume: 547,500.02 bbl**
+
 ### PHDwin v3
 
 ![PHDwin v3 linear segment](phdwin.png)
