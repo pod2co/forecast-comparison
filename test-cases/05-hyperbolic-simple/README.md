@@ -83,3 +83,13 @@ Because of the curvature of hyperbolic segments, volumes may be higher or lower 
 ### 4cast
 
 ### Harmony
+
+### Obsidian
+
+![Obsidian hyperbolic curve](obsidian.png)
+
+Obsidian uses implicit forecast cutoffs, so a hyperbolic curve was used with 5 years of monthly values summed up to get the total volume.
+
+As Obsidian uses actual calender days, 5 years results in a duration of 1826 days.  The total volume of 1,953,679 bbl differs from the baseline calculation due to the use of initial daily rates as the daily volumes (rather than declining within a given day).
+
+**Actual Volume: 1,953,679 bbl**
