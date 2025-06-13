@@ -5,7 +5,7 @@
 Test how simple hyperbolic segments are calculated across each tool.
 
 - Create a production forecast for oil.
-- Add a linear segment with these parameters:
+- Add a hyperbolic segment with these parameters:
   - Start date of 01/01/2025
   - Duration ($t$) of 5 years
     - Note: if the tool doesn't allow duration to be provided in years, try to provide it either as 60 months, or 1826.25 days
