@@ -84,3 +84,13 @@ Note that holding the instantaneous rate at the start of each day flat across th
 ### 4cast
 
 ### Harmony
+
+### Obsidian
+
+![Obsidian exponential curve](obsidian.png)
+
+Obsidian uses implicit forecast cutoffs, so an exponential curve was used with 5 years of monthly values summed up to get the total volume.
+
+As Obsidian uses actual calender days, 5 years results in a duration of 1826 days.  The total volume of 1,515,660 bbl differs from the baseline calculation due to the use of initial daily rates as the daily volumes (rather than declining within a given day).
+
+**Actual Volume: 1,515,660 bbl**

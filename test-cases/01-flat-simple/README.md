@@ -63,3 +63,13 @@ This duration difference caused the volume to be different ($1000 * 365 = 365,00
 ### 4cast
 
 ### Harmony
+
+### Obsidian
+
+![Obsidian flat curve](obsidian.png)
+
+Obsidian uses implicit forecast cutoffs, so a flat curve was used with 1 year of monthly values summed up to get the total volume.
+
+As Obsidian uses actual calender days, the total volume for 2025 is (1000 bbl/d * 365 days) = 365,000 bbl.
+
+**Actual Volume: 365,000 bbl**

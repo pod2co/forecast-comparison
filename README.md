@@ -10,6 +10,7 @@ A comparison of forecast methodology and results across several tools:
 - Mosaic
 - 4cast
 - Harmony
+- Obsidian
 
 ## Introduction
 
