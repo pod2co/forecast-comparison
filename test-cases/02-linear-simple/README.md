@@ -90,6 +90,10 @@ We also tried to use the slope as an input to try to workaround the differences,
 
 ### whitson+
 
+![whitson+ linear segment](whitson.png)
+
+**Acutal Volume: 547,880 bbl**
+
 ### Val Nav
 
 ### Mosaic

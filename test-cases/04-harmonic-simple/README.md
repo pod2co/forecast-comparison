@@ -75,6 +75,10 @@ Because of the curvature of harmonic segments, volumes may be higher or lower th
 
 ### whitson+
 
+![whitson+ harmonic segment](whitson.png)
+
+**Actual Volume: 1,987,200 bbl**
+
 ### Val Nav
 
 ### Mosaic

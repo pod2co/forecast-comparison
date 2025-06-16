@@ -56,6 +56,10 @@ This duration difference caused the volume to be different ($1000 * 365 = 365,00
 
 ### whitson+
 
+![whitson+ flat segment](whitson.png)
+
+**Actual Volume: 365,250 bbl**
+
 ### Val Nav
 
 ### Mosaic

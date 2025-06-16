@@ -77,6 +77,10 @@ Note that holding the instantaneous rate at the start of each day flat across th
 
 ### whitson+
 
+![whitson+ exponential segment](whitson.png)
+
+**Actual Volume: 1,513,170 bbl**
+
 ### Val Nav
 
 ### Mosaic
