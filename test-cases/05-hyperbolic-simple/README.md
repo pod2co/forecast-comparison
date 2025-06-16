@@ -76,6 +76,10 @@ Because of the curvature of hyperbolic segments, volumes may be higher or lower 
 
 ### whitson+
 
+![whitson+ hyperbolic segment](whitson.png)
+
+**Actual Volume: 1,951,440 bbl**
+
 ### Val Nav
 
 ### Mosaic
