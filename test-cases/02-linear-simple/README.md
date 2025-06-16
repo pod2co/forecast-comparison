@@ -92,7 +92,9 @@ We also tried to use the slope as an input to try to workaround the differences,
 
 ![whitson+ linear segment](whitson.png)
 
-**Acutal Volume: 547,880 bbl**
+The remaining difference from teh baseline seems to be rounding to the displayed decimal places.
+
+**Actual Volume: 547,880 bbl**
 
 ### Val Nav
 

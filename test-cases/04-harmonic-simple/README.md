@@ -77,6 +77,8 @@ Because of the curvature of harmonic segments, volumes may be higher or lower th
 
 ![whitson+ harmonic segment](whitson.png)
 
+The remaining difference from teh baseline seems to be rounding to the displayed decimal places.
+
 **Actual Volume: 1,987,200 bbl**
 
 ### Val Nav
