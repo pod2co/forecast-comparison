@@ -79,6 +79,8 @@ Note that holding the instantaneous rate at the start of each day flat across th
 
 ![whitson+ exponential segment](whitson.png)
 
+The remaining difference from teh baseline seems to be rounding to the displayed decimal places.
+
 **Actual Volume: 1,513,170 bbl**
 
 ### Val Nav
