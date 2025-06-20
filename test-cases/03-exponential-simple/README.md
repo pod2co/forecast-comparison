@@ -57,7 +57,7 @@ Q_f &\approx \frac{5000}{0.00329629789}(1-e^{-(0.00329629789)(5)(365.25)})\\
 
 Monthly production rates are used, so the initial rate becomes $(5000)(365.25/12)=152187.5 \text{ bbl/mo}$.
 
-PHDwin doesn't appear to allow fractional durations to be used, so 1826 days is used instead. If we use 365 days to re-calculate the equation used in the baseline, the result is $\frac{5000}{0.00329629789}(1-e^{-(0.00329629789)(1826)})\approx1,513,164.207 \text { bbl}$ as expected, so the change in duration is the only reason for the variance.
+PHDwin doesn't appear to allow fractional durations to be used, so 1826 days is used instead. If we use 1826 days to re-calculate the equation used in the baseline, the result is $\frac{5000}{0.00329629789}(1-e^{-(0.00329629789)(1826)})\approx1,513,164.207 \text { bbl}$ as expected, so the change in duration is the only reason for the variance.
 
 **Actual Volume: 1,513,164.21 bbl**
 
