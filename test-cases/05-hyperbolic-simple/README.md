@@ -78,7 +78,7 @@ Because of the curvature of hyperbolic segments, volumes may be higher or lower 
 
 ![whitson+ hyperbolic segment](whitson.png)
 
-The remaining difference from teh baseline seems to be rounding to the displayed decimal places.
+The remaining difference from the baseline seems to be rounding to the displayed decimal places.
 
 **Actual Volume: 1,951,440 bbl**
 

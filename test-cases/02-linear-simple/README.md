@@ -92,7 +92,7 @@ We also tried to use the slope as an input to try to workaround the differences,
 
 ![whitson+ linear segment](whitson.png)
 
-The remaining difference from teh baseline seems to be rounding to the displayed decimal places.
+The remaining difference from the baseline seems to be rounding to the displayed decimal places.
 
 **Actual Volume: 547,880 bbl**
 
