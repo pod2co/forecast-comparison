@@ -52,6 +52,39 @@ Q_t(t) &= \frac{q_i}{D_i(1-b)}[1-(1+bD_it)^{\frac{b-1}{b}}]\\
 
 ### ARIES
 
+```
+OIL 5000 X B/D 5 YR B/.9 70
+```
+
+The hyperbolic forecast uses a B-factor of 0.9 with `B/.9 Desi`.
+
+ARIES only allows whole numbers to be used as the duration, so 5 years is used instead. ARIES assumes an average of 365 days per year, so the total days after 5 years are $5 * 365 = 1825$.
+
+The average year length of 365 days also affects the decline rate.
+
+To reproduce the ARIES calculation, calculate the nominal decline rate in the same way as the baseline but using 365 days per year instead:
+
+```math
+\begin{aligned}
+D &\approx 217.2474632 \text{ \%/yr}\\
+&\approx (217.2474632 \text{ \%/yr})\frac{1 \text{ yr}}{365 \text{ d}}\\
+&\approx 0.5951985 \text{ \%/d}
+\end{aligned}
+```
+
+Then calculate the volume after 1825 days:
+
+```math
+\begin{aligned}
+Q_f &= \frac{5000}{(0.5951985)(1-0.9)}[1-(1+(0.9)(0.5951985)(1825))^{\frac{0.9-1}{0.9}}]\\
+&\approx 1,950,108.032 \text{ bbl}
+\end{aligned}
+```
+
+This is approximately the same as the ARIES actual volume, with the remaining difference likely to be caused by a small amount of floating-point error accumulation.
+
+**Actual Volume: 1,950,108.18 bbl**
+
 ### PHDwin v3
 
 ![PHDwin v3 hyperbolic segment](phdwin.png)
