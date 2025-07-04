@@ -43,6 +43,11 @@ Results will be added here as they are available. Each of the test cases has det
 3. [Exponential Simple](./test-cases/03-exponential-simple/README.md)
 4. [Harmonic Simple](./test-cases/04-harmonic-simple/README.md)
 5. [Hyperbolic Simple](./test-cases/05-hyperbolic-simple/README.md)
+6. [Flat Ratio Against Hyperbolic](./test-cases/06-flat-ratio-against-hyperbolic/README.md)
+7. [Linear Ratio Against Hyperbolic](./test-cases/07-linear-ratio-against-hyperbolic/README.md)
+8. [Exponential Ratio Against Hyperbolic](./test-cases/08-exponential-ratio-against-hyperbolic/README.md)
+9. [Harmonic Ratio Against Hyperbolic](./test-cases/09-harmonic-ratio-against-hyperbolic/README.md)
+10. [Hyperbolic Ratio Against Hyperbolic](./test-cases/10-harmonic-ratio-against-hyperbolic/README.md)
 
 ## Contributing
 
