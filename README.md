@@ -47,7 +47,7 @@ Results will be added here as they are available. Each of the test cases has det
 7. [Linear Ratio Against Hyperbolic](./test-cases/07-linear-ratio-against-hyperbolic/README.md)
 8. [Exponential Ratio Against Hyperbolic](./test-cases/08-exponential-ratio-against-hyperbolic/README.md)
 9. [Harmonic Ratio Against Hyperbolic](./test-cases/09-harmonic-ratio-against-hyperbolic/README.md)
-10. [Hyperbolic Ratio Against Hyperbolic](./test-cases/10-harmonic-ratio-against-hyperbolic/README.md)
+10. [Hyperbolic Ratio Against Hyperbolic](./test-cases/10-hyperbolic-ratio-against-hyperbolic/README.md)
 
 ## Contributing
 
